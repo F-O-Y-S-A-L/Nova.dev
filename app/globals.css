@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-display: 'Anton', 'Arial Black', sans-serif;
+  --color-accent: #D9FF00;
+  --color-bg: #050505;
+}
+
+@layer base {
+  * {
+    @apply border-white/10 selection:bg-accent selection:text-black;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-bg text-white antialiased font-sans;
+  }
+
+  h1, h2, h3 {
+    @apply font-display uppercase tracking-[-0.05em];
+  }
+}
+
+@layer utilities {
+  .text-stroke {
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+  }
+  .text-stroke-white {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+  }
+  
+  .accent-glow {
+    filter: drop-shadow(0 0 15px rgba(217, 255, 0, 0.3));
+  }
+}
