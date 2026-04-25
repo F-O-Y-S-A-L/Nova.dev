@@ -18,7 +18,6 @@ const About = () => {
       ref={containerRef}
       className="relative py-14 px-6 bg-black overflow-hidden md:py-32"
     >
-
       <div className="max-w-7xl mx-auto relative z-10">
         <motion.p
           initial={{ opacity: 0, y: 10 }}
@@ -27,7 +26,7 @@ const About = () => {
           className="text-xs uppercase tracking-[0.4em] mb-4 font-black text-accent"
         >
           Who I Am
-        </motion.p> 
+        </motion.p>
         <motion.h2
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -84,9 +83,10 @@ const About = () => {
                   </p>
                 </div>
                 <p className="text-sm opacity-50 leading-relaxed font-medium">
-                  I specialize in bridging the gap between high-end design and
-                  robust engineering. Every pixel and line of code I write is
-                  optimized for performance, accessibility, and user delight.
+                  As a Full-Stack Web Developer, my mission is to craft seamless
+                  digital experiences that merge elegant design with powerful
+                  backend logic. I aim to deliver applications that are fast,
+                  secure, and scalable.
                 </p>
               </motion.div>
 
@@ -103,9 +103,10 @@ const About = () => {
                   </p>
                 </div>
                 <p className="text-sm opacity-50 leading-relaxed font-medium">
-                  My workflow is deeply collaborative and iterative. I leverage
-                  modern frameworks like Next.js and Nuxt.js to build fast,
-                  SEO-friendly applications that scale with your business.
+                  My approach blends modern frameworks like Next.js, Nuxt.js,
+                  Express, and Nest.js with clean UI practices. I follow
+                  collaborative, iterative workflows to ensure every project is
+                  optimized for performance, SEO, and user satisfaction.
                 </p>
               </motion.div>
             </div>
@@ -119,13 +120,13 @@ const About = () => {
                   Trusted By:
                 </span>
                 <span className="text-xl font-display font-black tracking-widest italic">
-                  AETHER.
+                  Crave.
                 </span>
                 <span className="text-xl font-display font-black tracking-widest italic">
-                  VERVE.
+                  LuminaBlogs.
                 </span>
                 <span className="text-xl font-display font-black tracking-widest italic">
-                  SOLSTICE.
+                  Quotespace.
                 </span>
               </div>
             </motion.div>
