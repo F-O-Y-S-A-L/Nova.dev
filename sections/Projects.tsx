@@ -19,7 +19,7 @@ const Projects = () => {
       tagline: "Modern, SEO-friendly blog for Tech, Life & Design insights.",
       image:
         "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1200&auto=format&fit=crop",
-      siteLink: "https://luminablog-two.vercel.app/",
+      siteLink: "https://luminablogs.vercel.app/",
     },
     {
       title: "Quotespace",
