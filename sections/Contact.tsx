@@ -4,9 +4,8 @@ import Link from "next/link";
 import { useState } from "react";
 
 const social = [
-  { linkName: "TWITTER", link: "https://x.com/GMFoysal811738" },
   { linkName: "GITHUB", link: "https://github.com/F-O-Y-S-A-L" },
-  { linkName: "LINKDIN", link: "https://x.com/GMFoysal811738" },
+  { linkName: "LINKDIN", link: "https://www.linkedin.com/in/foysal-ali-955b9b405/" },
   { linkName: "INSTAGRAM", link: "https://www.instagram.com/gm4482/" },
 ];
 
