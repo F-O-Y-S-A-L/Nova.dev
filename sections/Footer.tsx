@@ -82,7 +82,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-12 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="font-mono text-[9px] uppercase tracking-[0.4em] opacity-40">
-            © 2026 NOVA.DEV // ARCHITECTING THE FUTURE
+            © 2026 Foysal.DEV // ARCHITECTING THE FUTURE
           </div>
 
           <motion.button

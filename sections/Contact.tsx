@@ -81,12 +81,7 @@ const Contact = () => {
           </p>
 
           <div className="flex flex-col gap-10">
-            <a
-              href="mailto:hello@nova.dev"
-              className="text-2xl sm:text-3xl md:text-5xl font-black font-display tracking-tighter hover:text-gray-600 transition-colors uppercase"
-            >
-              gmalfoysal59@gmail.com
-            </a>
+              <span className="text-2xl sm:text-3xl md:text-5xl font-black font-display tracking-tighter hover:text-gray-600 transition-colors uppercase">gmalfoysal59@gmail.com</span>
             <div className="flex flex-wrap gap-4">
               {social.map((item, i) => (
                 <Link

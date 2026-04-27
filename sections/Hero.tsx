@@ -15,7 +15,7 @@ const Hero = () => {
           <p className="text-[10px] sm:text-xs uppercase tracking-[0.4em] mb-6 font-black text-accent">
             Focused Software Architecture & Implementation
           </p>
-          <h1 className="text-[14vw] sm:text-[12vw] md:text-[10vw] lg:text-[9vw] font-display font-black leading-[0.82] tracking-[-0.07em] mb-10 max-w-[15ch] uppercase">
+          <h1 className="text-[14vw] sm:text-[12vw] md:text-[10vw] lg:text-[9vw] font-black leading-[0.82] tracking-[-0.07em] mb-10 max-w-[15ch] uppercase">
             Full Stack
             <br />
             <span className="text-stroke-white">Developer</span>

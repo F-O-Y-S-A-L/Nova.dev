@@ -25,14 +25,14 @@ const Navbar = () => {
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-700 pointer-events-none ${scrolled ? "py-4" : "py-8"}`}
     >
       <div
-        className={`max-w-7xl mx-auto flex justify-between items-center transition-all duration-500 pointer-events-auto ${scrolled ? "bg-black/40 backdrop-blur-3xl rounded-3xl py-3 px-8 border border-white/15 w-[94%]" : "w-full px-6"}`}
+        className={`max-w-7xl mx-auto flex justify-between items-center transition-all duration-500 pointer-events-auto ${scrolled ? "bg-black/40 backdrop-blur-3xl rounded-3xl py-3 px-4 border border-white/15 w-[94%]" : "w-full px-0"}`}
       >
         <motion.a
           href="#"
           className="text-2xl font-display font-black tracking-tighter"
           whileHover={{ scale: 1.05 }}
         >
-          NOVA<span className="text-accent">.DEV</span>
+          Foysal<span className="text-accent">.DEV</span>
         </motion.a>
 
         <div className="hidden md:flex gap-10">
