@@ -73,7 +73,6 @@ export async function POST(req: Request) {
   </div>
 
 </div>
-🎨 Design Breakdown (কেন এটা modern লাগবে)
       `,
     });
 
